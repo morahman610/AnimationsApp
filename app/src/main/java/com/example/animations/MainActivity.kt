@@ -30,4 +30,9 @@ class MainActivity : AppCompatActivity() {
         val intent: Intent = Intent(this,PlaceHolder::class.java)
         startActivity(intent)
     }
+
+    fun fourthAnimationOnClick(view: View) {
+        val intent: Intent = Intent(this,CircularPositioning::class.java)
+        startActivity(intent)
+    }
 }

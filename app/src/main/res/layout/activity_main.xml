@@ -24,18 +24,18 @@
             app:layout_constraintTop_toBottomOf="@+id/constraintAnimationBtn"
             app:layout_constraintBottom_toTopOf="@+id/thirdAnimation" android:onClick="secondConstraintAnimation"/>
     <Button
-            android:text="Button"
+            android:text="fourthAnimationOnClick"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/button3"
+            android:id="@+id/fourthAnimation"
             app:layout_constraintStart_toStartOf="@+id/thirdAnimation" app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/thirdAnimation"/>
+            app:layout_constraintTop_toBottomOf="@+id/thirdAnimation" android:onClick="fourthAnimationOnClick"/>
     <Button
             android:text="Third Animation"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/thirdAnimation"
             app:layout_constraintStart_toStartOf="@+id/button2" app:layout_constraintTop_toBottomOf="@+id/button2"
-            app:layout_constraintBottom_toTopOf="@+id/button3" android:onClick="thirdAnimationOnClick"/>
+            app:layout_constraintBottom_toTopOf="@+id/fourthAnimation" android:onClick="thirdAnimationOnClick"/>
 
 </android.support.constraint.ConstraintLayout>
